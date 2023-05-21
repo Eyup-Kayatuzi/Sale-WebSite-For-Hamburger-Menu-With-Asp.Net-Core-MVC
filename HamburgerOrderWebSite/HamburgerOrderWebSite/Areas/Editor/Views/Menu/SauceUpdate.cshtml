@@ -1,0 +1,40 @@
+﻿@model HamburgerOrderWebSite.Models.Sauce
+
+@{
+    ViewData["Title"] = "Sos Güncelle";
+}
+@{
+    if (User.IsInRole("Editör"))
+    {
+        Layout = "~/Areas/Editor/Views/Shared/EditorTemplate.cshtml";
+    }
+    else
+    {
+        Layout = "~/Areas/Admin/Views/Shared/AdminTemplate.cshtml";
+    }
+}
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="SauceUpdate">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="SauceName" class="control-label"></label>
+                <input asp-for="SauceName" class="form-control" readonly />
+                <span asp-validation-for="SauceName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Price" class="control-label"></label>
+                <input asp-for="Price" class="form-control" type="number" step="0.01" min="0" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Kaydet" class="btn btn-warning" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

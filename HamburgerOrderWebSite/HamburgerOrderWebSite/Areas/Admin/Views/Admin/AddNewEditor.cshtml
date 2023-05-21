@@ -1,0 +1,46 @@
+﻿@model HamburgerOrderWebSite.ViewModels.SignUpVM
+
+@{
+    ViewData["Title"] = "Yeni Editör Ekle";
+}
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="AddNewEditor">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="UserName" class="control-label"></label>
+                <input asp-for="UserName" class="form-control" placeholder="Kullanıcı Adı Giriniz" />
+                <span asp-validation-for="UserName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" placeholder="Mail Adresi Giriniz" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" class="form-control" placeholder="Şifre Giriniz" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Oluştur" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script>
+        @{
+            if (ViewData["EditorEkleme"] != null)
+            {
+                <text>
+                    alert('Bu mail adresi veya kullanıcı adı sistemde mevcuttur');
+                </text>
+            }
+        }
+
+    </script>
+}

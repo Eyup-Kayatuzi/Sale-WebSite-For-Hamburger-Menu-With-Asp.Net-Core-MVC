@@ -1,0 +1,111 @@
+﻿@using HamburgerOrderWebSite.ViewModels.ForUser;
+@model HamburgerOrderWebSite.ViewModels.ProfileVM
+
+@{
+    ViewData["Title"] = "Profil Detayı";
+}
+@{
+    if (User.IsInRole("Normal Kullanıcı"))
+    {
+        Layout = "~/Areas/User/Views/Shared/UserTemplate.cshtml";
+    }
+    else if (User.IsInRole("Editör"))
+    {
+        Layout = "~/Areas/Editor/Views/Shared/EditorTemplate.cshtml";
+    }
+    else if (User.IsInRole("Yönetici"))
+    {
+        Layout = "~/Areas/Admin/Views/Shared/AdminTemplate.cshtml";
+    }
+    else
+    {
+        Layout = "AnaSayfaGirisTemplate";
+    }
+}
+<div class="card o-hidden border-0 shadow-lg my-5">
+    <div class="card-body p-0">
+        <div class="row">
+            <div class="col-lg-5 d-none d-lg-block ">
+                <img class="img mt-auto" src="~/Images/ForMAinPage/Profileone.svg" />
+            </div>
+            <div class="col-lg-7">
+                <div class="p-5">
+                    <div class="text-center">
+                        <h1 class="h4 text-warning fw-bold mb-4"><strong>PROFİL</strong></h1>
+                    </div>
+                    <form asp-area="User" asp-action="ProfileDetail" asp-controller="User">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="form-group">
+                            <input asp-for="UserName" class="form-control form-control-user" placeholder="Kullanıcı Adı" />
+                            <span asp-validation-for="UserName" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <input asp-for="Email" class="form-control form-control-user" readonly />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <input asp-for="PhoneNumber" class="form-control form-control-user" placeholder="Telefon Numarası" />
+                            
+                            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <textarea asp-for="Address" class="form-control form-control-user" placeholder="Adres Girişi"></textarea>
+                            <span asp-validation-for="Address" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <a asp-area="User" asp-action="UpdatePassword" asp-controller="User" class="btn btn-warning">Şifre Değiştir</a>
+                                <input type="submit" value="Kaydet" class="btn btn-danger" />
+                            <a asp-area="User" asp-action="DeleteProfile" asp-controller="User" class="btn btn-success">Hesabımı Sil</a>
+                            
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        @{
+            if (User.IsInRole("Normal Kullanıcı"))
+            {
+                foreach (var item in (List<UserBoxVM>)ViewData["UserOrders"])
+                {
+                    <text>
+                        $(document).ready(function () {
+                            $("#AddToBox").append('<a class="dropdown-item" asp-area="User" asp-action="MenuDetails" asp-controller="User" asp-route-orderId="@item.OrderId">' +
+                                '<i class="fa-solid fa-pencil"></i>' +
+                                '<p>@item.OrderName</p>' +
+                                '<p>₺@item.Price</p>' +
+                                '</a>');
+                        });
+                    </text>
+                }
+
+                <text>
+                    $(document).ready(function () {
+                        var addToBoxElement = document.getElementById('AddToBox');
+                        var elementCount = addToBoxElement.childElementCount;
+                        if (elementCount != 0) {
+                            var link = '<a class="dropdown-item" asp-area="User" asp-action="RemoveAllMenus" asp-controller="User">' +
+                                '<i class="fa-regular fa-trash-can fa-beat-fade" style="color: #c51b1b;"></i>&nbsp; Sepeti Boşalt!' +
+                                '</a>';
+
+                            var link2 = '<a class="btn btn-danger btn-block mt-2" asp-area="User" asp-action="ValidateBox" asp-controller="User">' + `Siparişi Tamamla`
+                            '</a>';
+                            $("#AddToBox").append(link);
+                            $("#AddToBox").append(link2);
+                        }
+
+
+                    });
+                </text>
+            }
+        }
+    </script>
+}

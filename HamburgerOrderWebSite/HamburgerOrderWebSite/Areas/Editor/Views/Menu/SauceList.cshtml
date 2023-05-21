@@ -1,0 +1,59 @@
+﻿@model IEnumerable<HamburgerOrderWebSite.Models.Sauce>
+
+@{
+    ViewData["Title"] = "Soslar";
+}
+@{
+    if (User.IsInRole("Editör"))
+    {
+        Layout = "~/Areas/Editor/Views/Shared/EditorTemplate.cshtml";
+    }
+    else
+    {
+        Layout = "~/Areas/Admin/Views/Shared/AdminTemplate.cshtml";
+    }
+}
+
+<hr />
+<p>
+    <a class="btn btn-danger" asp-area="Editor" asp-action="SauceCreate" asp-controller="Menu">Yeni Sos Oluştur</a>
+</p>
+<table class="table table-dark table-striped">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.SauceName)
+            </th>
+            <th>
+                ₺
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SauceName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    <a class="btn btn-warning" asp-area="Editor" asp-action="SauceUpdate" asp-controller="Menu" asp-route-id="@item.Id">Güncelle</a>
+                </td>
+                <td>
+                    @{
+                        if (User.IsInRole("Yönetici"))
+                        {
+                            <a class="btn btn-danger" asp-area="Editor" asp-action="SauceDelete" asp-controller="Menu" asp-route-id="@item.Id">Sil</a>
+                        }
+                    }
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>
+

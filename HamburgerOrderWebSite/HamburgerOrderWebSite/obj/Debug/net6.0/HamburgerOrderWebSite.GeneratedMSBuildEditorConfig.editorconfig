@@ -1,0 +1,173 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = HamburgerOrderWebSite
+build_property.RootNamespace = HamburgerOrderWebSite
+build_property.ProjectDir = C:\Users\eypky\OneDrive\Desktop\ProjeWithOriginalTemplate\HamburgerOrderWebSite\HamburgerOrderWebSite\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\eypky\OneDrive\Desktop\ProjeWithOriginalTemplate\HamburgerOrderWebSite\HamburgerOrderWebSite
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/eypky/OneDrive/Desktop/ProjeWithOriginalTemplate/HamburgerOrderWebSite/HamburgerOrderWebSite/Areas/Admin/Views/Admin/AddNewEditor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cQWRkTmV3RWRpdG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eypky/OneDrive/Desktop/ProjeWithOriginalTemplate/HamburgerOrderWebSite/HamburgerOrderWebSite/Areas/Admin/Views/Admin/OrderInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cT3JkZXJJbmZvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eypky/OneDrive/Desktop/ProjeWithOriginalTemplate/HamburgerOrderWebSite/HamburgerOrderWebSite/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eypky/OneDrive/Desktop/ProjeWithOriginalTemplate/HamburgerOrderWebSite/HamburgerOrderWebSite/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eypky/OneDrive/Desktop/ProjeWithOriginalTemplate/HamburgerOrderWebSite/HamburgerOrderWebSite/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eypky/OneDrive/Desktop/ProjeWithOriginalTemplate/HamburgerOrderWebSite/HamburgerOrderWebSite/Areas/Editor/Views/Menu/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRWRpdG9yXFZpZXdzXE1lbnVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eypky/OneDrive/Desktop/ProjeWithOriginalTemplate/HamburgerOrderWebSite/HamburgerOrderWebSite/Areas/Editor/Views/Menu/MenuCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRWRpdG9yXFZpZXdzXE1lbnVcTWVudUNyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eypky/OneDrive/Desktop/ProjeWithOriginalTemplate/HamburgerOrderWebSite/HamburgerOrderWebSite/Areas/Editor/Views/Menu/MenuGuncelle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRWRpdG9yXFZpZXdzXE1lbnVcTWVudUd1bmNlbGxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eypky/OneDrive/Desktop/ProjeWithOriginalTemplate/HamburgerOrderWebSite/HamburgerOrderWebSite/Areas/Editor/Views/Menu/SauceCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRWRpdG9yXFZpZXdzXE1lbnVcU2F1Y2VDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eypky/OneDrive/Desktop/ProjeWithOriginalTemplate/HamburgerOrderWebSite/HamburgerOrderWebSite/Areas/Editor/Views/Menu/SauceList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRWRpdG9yXFZpZXdzXE1lbnVcU2F1Y2VMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eypky/OneDrive/Desktop/ProjeWithOriginalTemplate/HamburgerOrderWebSite/HamburgerOrderWebSite/Areas/Editor/Views/Menu/SauceUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRWRpdG9yXFZpZXdzXE1lbnVcU2F1Y2VVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eypky/OneDrive/Desktop/ProjeWithOriginalTemplate/HamburgerOrderWebSite/HamburgerOrderWebSite/Areas/Editor/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRWRpdG9yXFZpZXdzXFNoYXJlZFxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eypky/OneDrive/Desktop/ProjeWithOriginalTemplate/HamburgerOrderWebSite/HamburgerOrderWebSite/Areas/Editor/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRWRpdG9yXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eypky/OneDrive/Desktop/ProjeWithOriginalTemplate/HamburgerOrderWebSite/HamburgerOrderWebSite/Areas/Editor/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRWRpdG9yXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eypky/OneDrive/Desktop/ProjeWithOriginalTemplate/HamburgerOrderWebSite/HamburgerOrderWebSite/Areas/User/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xTaGFyZWRcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eypky/OneDrive/Desktop/ProjeWithOriginalTemplate/HamburgerOrderWebSite/HamburgerOrderWebSite/Areas/User/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xVc2VyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eypky/OneDrive/Desktop/ProjeWithOriginalTemplate/HamburgerOrderWebSite/HamburgerOrderWebSite/Areas/User/Views/User/MenuDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xVc2VyXE1lbnVEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eypky/OneDrive/Desktop/ProjeWithOriginalTemplate/HamburgerOrderWebSite/HamburgerOrderWebSite/Areas/User/Views/User/OldOrders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xVc2VyXE9sZE9yZGVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eypky/OneDrive/Desktop/ProjeWithOriginalTemplate/HamburgerOrderWebSite/HamburgerOrderWebSite/Areas/User/Views/User/ProfileDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xVc2VyXFByb2ZpbGVEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eypky/OneDrive/Desktop/ProjeWithOriginalTemplate/HamburgerOrderWebSite/HamburgerOrderWebSite/Areas/User/Views/User/SepeteEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xVc2VyXFNlcGV0ZUVrbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eypky/OneDrive/Desktop/ProjeWithOriginalTemplate/HamburgerOrderWebSite/HamburgerOrderWebSite/Areas/User/Views/User/UpdatePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xVc2VyXFVwZGF0ZVBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eypky/OneDrive/Desktop/ProjeWithOriginalTemplate/HamburgerOrderWebSite/HamburgerOrderWebSite/Areas/User/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eypky/OneDrive/Desktop/ProjeWithOriginalTemplate/HamburgerOrderWebSite/HamburgerOrderWebSite/Areas/User/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xfVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eypky/OneDrive/Desktop/ProjeWithOriginalTemplate/HamburgerOrderWebSite/HamburgerOrderWebSite/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eypky/OneDrive/Desktop/ProjeWithOriginalTemplate/HamburgerOrderWebSite/HamburgerOrderWebSite/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eypky/OneDrive/Desktop/ProjeWithOriginalTemplate/HamburgerOrderWebSite/HamburgerOrderWebSite/Views/MainPage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblBhZ2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eypky/OneDrive/Desktop/ProjeWithOriginalTemplate/HamburgerOrderWebSite/HamburgerOrderWebSite/Views/MainPage/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblBhZ2VcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eypky/OneDrive/Desktop/ProjeWithOriginalTemplate/HamburgerOrderWebSite/HamburgerOrderWebSite/Views/MainPage/MenuList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblBhZ2VcTWVudUxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eypky/OneDrive/Desktop/ProjeWithOriginalTemplate/HamburgerOrderWebSite/HamburgerOrderWebSite/Views/MainPage/SepeteEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblBhZ2VcU2VwZXRlRWtsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eypky/OneDrive/Desktop/ProjeWithOriginalTemplate/HamburgerOrderWebSite/HamburgerOrderWebSite/Views/MainPage/SignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblBhZ2VcU2lnblVwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eypky/OneDrive/Desktop/ProjeWithOriginalTemplate/HamburgerOrderWebSite/HamburgerOrderWebSite/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eypky/OneDrive/Desktop/ProjeWithOriginalTemplate/HamburgerOrderWebSite/HamburgerOrderWebSite/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eypky/OneDrive/Desktop/ProjeWithOriginalTemplate/HamburgerOrderWebSite/HamburgerOrderWebSite/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eypky/OneDrive/Desktop/ProjeWithOriginalTemplate/HamburgerOrderWebSite/HamburgerOrderWebSite/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/eypky/OneDrive/Desktop/ProjeWithOriginalTemplate/HamburgerOrderWebSite/HamburgerOrderWebSite/Areas/Admin/Views/Shared/AdminTemplate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXEFkbWluVGVtcGxhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-8eax4tuixi
+
+[C:/Users/eypky/OneDrive/Desktop/ProjeWithOriginalTemplate/HamburgerOrderWebSite/HamburgerOrderWebSite/Areas/Editor/Views/Shared/EditorTemplate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRWRpdG9yXFZpZXdzXFNoYXJlZFxFZGl0b3JUZW1wbGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-9g48x0jhqp
+
+[C:/Users/eypky/OneDrive/Desktop/ProjeWithOriginalTemplate/HamburgerOrderWebSite/HamburgerOrderWebSite/Areas/User/Views/Shared/UserTemplate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xTaGFyZWRcVXNlclRlbXBsYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-jgjs1yzghz
+
+[C:/Users/eypky/OneDrive/Desktop/ProjeWithOriginalTemplate/HamburgerOrderWebSite/HamburgerOrderWebSite/Views/Shared/AnaSayfaGirisTemplate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFuYVNheWZhR2lyaXNUZW1wbGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-fghx47cfym
+
+[C:/Users/eypky/OneDrive/Desktop/ProjeWithOriginalTemplate/HamburgerOrderWebSite/HamburgerOrderWebSite/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-zdbzjsnjr0

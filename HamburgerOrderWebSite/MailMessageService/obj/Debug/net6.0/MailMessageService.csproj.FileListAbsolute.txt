@@ -1,0 +1,12 @@
+C:\Users\eypky\OneDrive\Desktop\ProjeWithOriginalTemplate\HamburgerOrderWebSite\MailMessageService\bin\Debug\net6.0\MailMessageService.deps.json
+C:\Users\eypky\OneDrive\Desktop\ProjeWithOriginalTemplate\HamburgerOrderWebSite\MailMessageService\bin\Debug\net6.0\MailMessageService.dll
+C:\Users\eypky\OneDrive\Desktop\ProjeWithOriginalTemplate\HamburgerOrderWebSite\MailMessageService\bin\Debug\net6.0\MailMessageService.pdb
+C:\Users\eypky\OneDrive\Desktop\ProjeWithOriginalTemplate\HamburgerOrderWebSite\MailMessageService\obj\Debug\net6.0\MailMessageService.csproj.AssemblyReference.cache
+C:\Users\eypky\OneDrive\Desktop\ProjeWithOriginalTemplate\HamburgerOrderWebSite\MailMessageService\obj\Debug\net6.0\MailMessageService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eypky\OneDrive\Desktop\ProjeWithOriginalTemplate\HamburgerOrderWebSite\MailMessageService\obj\Debug\net6.0\MailMessageService.AssemblyInfoInputs.cache
+C:\Users\eypky\OneDrive\Desktop\ProjeWithOriginalTemplate\HamburgerOrderWebSite\MailMessageService\obj\Debug\net6.0\MailMessageService.AssemblyInfo.cs
+C:\Users\eypky\OneDrive\Desktop\ProjeWithOriginalTemplate\HamburgerOrderWebSite\MailMessageService\obj\Debug\net6.0\MailMessageService.csproj.CoreCompileInputs.cache
+C:\Users\eypky\OneDrive\Desktop\ProjeWithOriginalTemplate\HamburgerOrderWebSite\MailMessageService\obj\Debug\net6.0\MailMessageService.dll
+C:\Users\eypky\OneDrive\Desktop\ProjeWithOriginalTemplate\HamburgerOrderWebSite\MailMessageService\obj\Debug\net6.0\refint\MailMessageService.dll
+C:\Users\eypky\OneDrive\Desktop\ProjeWithOriginalTemplate\HamburgerOrderWebSite\MailMessageService\obj\Debug\net6.0\MailMessageService.pdb
+C:\Users\eypky\OneDrive\Desktop\ProjeWithOriginalTemplate\HamburgerOrderWebSite\MailMessageService\obj\Debug\net6.0\ref\MailMessageService.dll
